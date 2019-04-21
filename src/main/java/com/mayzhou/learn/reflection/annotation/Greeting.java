@@ -11,6 +11,7 @@ import java.lang.annotation.*;
  */
 @Target({ElementType.METHOD,ElementType.CONSTRUCTOR})
 @Inherited
+
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Greeting {
